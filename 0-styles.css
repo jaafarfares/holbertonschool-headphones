@@ -1,0 +1,226 @@
+/* * {
+    max-width: 1000px;
+}
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.9;
+}
+
+link:hover, link:active {
+    color: #FF6565;
+}
+
+
+@media only screen and (min-width: 481px) {
+    
+}
+.body {
+    background: url("../images/headphones_hero_1.jpg") no-repeat top left;
+    background-size: cover;
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+  }
+.logo {
+    background: url("../images/logo_headphones.png");
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+    height: 50px;
+  }
+ *//* :root{
+    --color-primary:#d73953;
+    --color-black:#090909;
+    --color-white:#ffffff;
+    --color-light-grey:#f3f3f3;
+    --color-dark-grey:#353535;
+    --text-color:var(--color-black);
+    --font-family-base: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Raleway","Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-size-small: 1.2rem;
+    --font-size-medium:1.6rem;
+    --font-size-large:1.8rem;
+    --font-size-x-large:2.3rem;
+    --font-size-xx-large:4.8rem;
+    --font-weight-regular:400;
+    --font-weight-bold:700;
+
+}
+    html { 
+        font-size: 10px;
+        scroll-behavior: smooth;
+    }
+    body {
+        color: var(--text-color);
+        font-family: var(--font-family-base);
+        font-size: var(--font-size-medium);
+        font-weight: var(--font-weight-regular);
+        
+        }
+        a {
+            color: var(--text-color);
+        }
+        .visually-hidden {
+            display: none;
+        
+        }
+        .card-category {
+            color: var(--color-primary);
+            ;
+        }
+        .section-tagline  {
+            color: var(--color-primary);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-family-title);
+            font-weight: var(--font-weight-bold);
+        }
+.h1 {
+    color: var(--color-primary);
+
+}
+#header{
+    padding: 100px, 50px, 30px;
+    margin-top: 100%;
+}
+link:hover, link:active {
+    color: #FF6565;
+}
+li:hover {
+    color: #FF6565;
+
+}
+.ul {
+    display: flex;
+} */
+/* 
+li:hover {
+    color: #FF6565;
+
+}
+.hero {
+    background-image: url("./images/headphones_hero_1.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0rem;
+    right: 0;
+    left: 0;
+    margin: 1rem auto;
+    max-width: 140rem;
+    padding: 2rem 3rem;
+}
+.header-logo {
+    float: left;
+    padding-top: 25px;
+    padding-left: 200px;
+    display: flex;
+    
+}
+.navbar-menu {
+    float: right;
+    padding-right: 40px;
+    display: flex;
+}
+li{ display:inline-block;padding:15px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.headings {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 35rem 18rem 12rem 18rem;
+    text-align: center;
+}
+
+html { 
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+.hero-title {
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
+
+.my-button {
+    color: white;
+    background-color: red;
+    outline: none;
+    border: 0px;
+    border-radius: 22px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    width: 162px;
+    height: 44px;
+    float:right;
+}
+ */
+ .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-collapse {
+    justify-content: center;
+  }
+  .nav-item {
+    margin: 0 10px;
+  }
+  .my-button {
+    display: none;
+  }
+  .navbar-dark .navbar-collapse {
+    background-color: transparent !important;
+  }
+  @media (min-width: 992px) { /* screen size bigger than or equal to 992px */
+    .container {
+      max-width: 760px; /* new max-width for bigger screens */
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .navbar-brand {
+      justify-content: center;
+    }
+    .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #343a40;
+      padding: 10px;
+      text-align: center;
+    }
+    .navbar-collapse.show {
+      display: block;
+    }
+    .navbar-toggler {
+      display: block;
+    }
+    .my-button {
+      display: block;
+    }
+
+  }
+  .headings {
+    text-align: center;
+  }
